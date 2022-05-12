@@ -47,8 +47,6 @@ import { StyleSheet, Text, View, ScrollView } from "react-native";
 import { ReactNativeShowMarketBinance } from "react-native-show-market-binance";
 
 export default function App() {
-  //const symbolsArray = ['btcbrl','ethbrl','usdtbrl','bnbbrl','xrpbrl','solbrl']
-  //const serverMessages = ReactNativeShowMarketBinance().consultSymbol("btcbrl");
   const serverMessages = ReactNativeShowMarketBinance().InstantMethodForTest(true);
 
   return (
