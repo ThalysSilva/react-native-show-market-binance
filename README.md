@@ -16,7 +16,7 @@ Methods
 - **ConsultSymbol(symbol: string, enableLog?: boolean)**: select only one pair symbols to return.
 - **ConsultVariousSymbols(symbols: string[], enableLog?: boolean)**: set one or more symbols in 'symbols' string[] to subscribre then and return data of all symbols.
 <br/>
-*tips: enable log pass true in enableLog, or disable, pass false or nothing.*
+*Tips: for enable log pass true in enableLog, or for disable, pass false or nothing.*
 <br/>
 
 Example of return: 
