@@ -40,7 +40,7 @@ To verify that the installation was successful, run the command below:
 ```expo --version```
 
 ---
-With the CLI installed on your computer, you can create Expo projects (see Apenndix) and run the 'metro bundler' to serve your code, but to run the app on your mobile you need to install the **Expo Go application.** for taking the code that `metro bundler` sends and displaying your React Native app on screen. but before, modify your App.tsx (or index.js) of example to :
+With the CLI installed on your computer, you can create Expo projects (see Apenndix) and run the 'metro bundler' to serve your code, but to run the app on your mobile you need to install the **Expo Go application.** (To install it, just search the stores for the **Expo Go** app) for taking the code that `metro bundler` sends and displaying your React Native app on screen. but before, modify your App.tsx (or index.js) of example to :
 ````
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, ScrollView } from "react-native";
@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
 });
 ````
 
-To install it, just search the stores for the **Expo Go** app
+
 
 ----
 
