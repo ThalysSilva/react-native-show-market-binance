@@ -84,7 +84,7 @@ Appendix
 ===
 - create Expo projects:
 After install expo-cli, enter a folder of your choice and open powershell / cmd here.
-run ```expo init examnple```, select blank with typescript and after enter in example: ```cd ./example/```
+run ```expo init example```, select blank with typescript and after enter in example: ```cd ./example/```
 
 
 
