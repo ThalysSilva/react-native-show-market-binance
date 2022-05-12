@@ -1,6 +1,6 @@
 {
   "name": "react-native-show-market-binance",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package to show crypto market symbols information",
   "main": "index.tsx",
   "scripts": {
@@ -27,8 +27,6 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.1",
-    "react-native-show-market-binance": "^1.0.1-a",
-    "react-native-use-websocket": "^0.2.6",
     "react-native-web": "0.17.7"
   },
   "devDependencies": {
