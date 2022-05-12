@@ -1,7 +1,7 @@
-import { FileSystemAdapter } from "./adapters/filesystem/FileLogger/FileSystem-adapter";
-import { createWebSocket } from "./service/websocket/websocket";
-import { ConsultSymbolUseCase } from "./useCases/binance/consult-symbol-use-case";
-import { ConsultVariousSymbolUseCase } from "./useCases/binance/consult-various-symbols-use-case";
+import { FileSystemAdapter } from "./src/adapters/file-log/FileSystem/FileSystem-adapter";
+import { createWebSocket } from "./src/service/websocket/websocket";
+import { ConsultSymbolUseCase } from "./src/useCases/binance/consult-symbol-use-case";
+import { ConsultVariousSymbolUseCase } from "./src/useCases/binance/consult-various-symbols-use-case";
 
 const fileSystemAdapter = new FileSystemAdapter();
 const symbolsArray = [
